@@ -24,9 +24,13 @@ A modern web application for computing FIRST, FOLLOW, and PREDICT sets for conte
 
 ### Example Grammar
 E  -> T E'
+
 E' -> +T E' | ε
+
 T  -> F T'
+
 T' -> *F T' | ε
+
 F  -> (E) | id
 
 
